@@ -122,9 +122,13 @@ h6 {
 .text-shadow {
   text-shadow: 1px 1px 8px #0000007b;
 }
-.card-shadow {
+.card-shadow-light {
   border: none !important;
   box-shadow: 0.5px 0.5px 10px #00000017;
+}
+.card-shadow {
+  border: none !important;
+  box-shadow: 1px 1px 10px #00000044;
 }
 
 @media (min-width: 576px) {
