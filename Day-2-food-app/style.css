@@ -198,7 +198,8 @@ figure {
   bottom: 2%;
   padding: 20px 0;
   width: 90%;
-  position: relative;
+  position: absolute;
+  z-index: 100;
 }
 .nav-bar i {
   font-size: var(--text-2xl);
@@ -230,7 +231,7 @@ figure {
 
 .mid-container {
   background-color: var(--principal-color);
-  height: 90vh;
+  height: auto;
   position: relative;
   width: 100%;
   display: flex;
@@ -238,6 +239,7 @@ figure {
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  padding-bottom: 30%;
 }
 
 .waves {
