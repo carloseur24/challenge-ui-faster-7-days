@@ -56,7 +56,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p,
+button {
   margin: 0% !important;
   font-size: 1rem !important;
 }
@@ -81,8 +83,8 @@ h6 {
   color: var(--gray);
 }
 .strong {
-  color: var(--black);
-  font-weight: var(--heavy);
+  color: var(--black) !important;
+  font-weight: var(--heavy) !important;
 }
 
 .icon-sm i {
