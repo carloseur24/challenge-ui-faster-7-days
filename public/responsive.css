@@ -64,6 +64,34 @@ button {
 }
 
 /* Custom classes */
+.f-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.f-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.container {
+  width: 100%;
+}
+
 .opacity-light {
   opacity: var(--opacity-light);
 }
