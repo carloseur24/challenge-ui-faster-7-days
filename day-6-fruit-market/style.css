@@ -129,6 +129,16 @@ figure {
   border-radius: 50%;
   position: relative;
 }
+.dotted {
+  padding: 1px;
+  position: absolute;
+  background-color: var(--red-salmon);
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  top: 21%;
+  right: 10%;
+}
 
 .user,
 .user img {
@@ -231,15 +241,4 @@ figure {
   justify-content: space-between;
   align-items: center;
   padding: 25px;
-}
-
-.dotted {
-  padding: 1px;
-  position: absolute;
-  background-color: var(--red-salmon);
-  border-radius: 50%;
-  width: 7px;
-  height: 7px;
-  top: 21%;
-  right: 10%;
 }

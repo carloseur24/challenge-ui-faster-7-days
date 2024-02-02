@@ -1,5 +1,5 @@
 :root {
-  --principal-color: #efeff0;
+  --main-color: #efeff0;
   --secundario-color: #31a0f5;
   --terciario-color: #f0d346;
   --icon-size-sm: 1.1rem;
@@ -64,6 +64,14 @@ button {
 }
 
 /* Custom classes */
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* padding-bottom: 30%; */
+}
+
 .f-row {
   display: flex;
   flex-direction: row;
@@ -169,6 +177,56 @@ button {
 .card-shadow {
   border: none !important;
   box-shadow: 1px 1px 10px #00000044;
+}
+
+.icon-circle-bg {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+  position: relative;
+}
+.dotted-notification {
+  padding: 1px;
+  position: absolute;
+  background-color: var(--red-salmon);
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  top: 21%;
+  right: 10%;
+}
+
+.color-red-salmon {
+  background-color: var(--red-salmon) !important;
+  /* padding: 8px 15px !important; */
+}
+.tags {
+  background-color: var(--red-salmon-darker);
+  font-size: 0.7rem;
+  border-radius: 16px;
+  padding: 8px;
+}
+
+.heart-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--red-salmon);
+  background-color: var(--red-salmon-darker);
+  padding: 8px;
+  border-radius: 50%;
+}
+.heart-button-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--principal-color);
+  background-color: var(--red-salmon-darker);
+  padding: 8px;
+  border-radius: 50%;
 }
 
 @media (min-width: 576px) {
